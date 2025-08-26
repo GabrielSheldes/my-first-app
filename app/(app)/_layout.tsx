@@ -3,17 +3,19 @@ import {Slot, Redirect} from "expo-router"
 import { ActivityIndicator, View } from "react-native"
 
 export default function AppLayut(){
-    // const {user, loading } = useAuth();
+// const {user, loading } = useAuth();
 
-    if (false) {
-        return(
-            <View>
+    if (true) {
+        return (
+            <View style={{ flex:1, alignItems:"center", justifyContent:"center"}}>
                 <ActivityIndicator/>
             </View>
         );
     }
-    if(false) {
+
+    if (false) {
         return <Redirect href="/(auth)/login"/>
     }
-    return 
+
+    return <Slot />;
 }
