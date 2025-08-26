@@ -75,7 +75,6 @@ return (
 
         <View style={styles.line}></View>
 
-
         {/*Form 2*/}
         <View>
 
